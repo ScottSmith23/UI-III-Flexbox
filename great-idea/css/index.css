@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,140 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav{
+width: 100%;
+	
+}
+#navgroup{
+	display:flex;
+	white-space: nowrap;
+	background-color: white;
+	  overflow: hidden;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  z-index:2;
+}
+nav a{	
+	color: black;	
+  text-decoration:none;
+  opacity: 0.5;
+  margin:0 3%;
+  transition: 0.32s;
+}
+nav a:hover{
+  background-color: yellow;
+  color:red;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+nav a:active{
+	background-color:greenyellow;
+	box-shadow: 0 5px gold;
+	color:black;
+	transform: translateY(4px);
+}
+
+#navgroup .logo{	
+	width: 15%;
+	align-self: flex-end;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+ 
+ #headergroup{
+	 margin-top:6%;
+	  margin-bottom: 6%;
+	  width: 100%;
+	 display:flex;
+	 justify-content: space-around;
+  }
+#headergroup .titlebutton{
+	margin-top: 7%;
+	
+}
+  #topgroup{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display:flex;
+	justify-content:space-between;
+  }
+  #topgroup .featuressec{
+	 width:50%;
+  }
+  #topgroup .aboutsec{
+	width:50%;
+ }
+
+#headergroup .maintitle{ 
+	font-size: 70px;
+	text-align: center;
+}
+.button{
+	margin-left: 30%;
+	justify-content: center;
+	border:1.2px solid black;
+	padding: 0.8% 5% 0.8% 5%;
+	transition: 0.32s;
+}
+.button:hover{
+	background:lightgrey;
+	color:teal;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active{
+	background-color:#D2B48C;
+  box-shadow: 0 5px #666;
+  color:black;
+  transform: translateY(4px);
+}
+  .headimg{  
+  width: 40%;
+  }
+
+  .middle-img{
+	  display:flex;
+	  justify-content: center;
+	margin-left:auto;
+	margin-right:auto;
+  }
+#bottomgroup .servicessec{
+	width:33%;
+}
+
+#bottomgroup .productsec{
+	width:33%;
+}
+#bottomgroup .visionsec{
+	width:33%;
+}
+
+#bottomgroup{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display:flex;
+	justify-content: center;
+}
+
+#fullbod{
+border-top:1px solid black;
+border-bottom:1px solid black;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+#contact{
+	display:flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+footer{
+	margin-top:5%;
+	margin-bottom:10%;
+	display:flex;
+	justify-content: center;
+}
+
