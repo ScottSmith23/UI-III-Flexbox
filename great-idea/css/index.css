@@ -209,6 +209,7 @@ footer{
 .services-header-img{
     display:flex;
 	  justify-content: center;
+	  margin-top: 12%;
 	margin-left:auto;
 	margin-right:auto;
 	width: 90%;
@@ -288,4 +289,74 @@ footer{
 }
 .serv1, .serv2, .serv3{
 	margin-right: 20px;
+}
+
+/*contact.html*/
+
+.contacttitle{
+    text-align: center;
+	height:10% ;
+	font-size:35px;
+	width: 30%;
+	margin-top: 24%;
+	margin-right: 10%;
+	margin-left: 5%;
+}
+
+.contact-header-img{
+
+	  margin-top: 12%;
+	width: 30%;
+	border-radius: 50%;
+	margin-bottom: 10%;
+	margin-right: 10%;
+	height: 30%;
+}
+
+.contacttop{
+
+	margin: 0 auto;
+	margin-top: 10%;
+	max-width: 90%;
+	display:flex;
+	justify-content: center;
+	border-bottom: 2px solid black;
+}
+
+
+.contactpar{
+
+	text-align: center;
+    font-size: 20px;
+	width: 40% ;
+	margin: 5% 5% 5% 0;
+}
+
+.contact-header-img, .contactpar,.contacttitle{
+
+}
+
+#contactform{
+	padding: 3% 0;
+  text-align:center;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	background-color: floralwhite;
+    
+}
+
+form{
+	margin-left: 40%;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.logo2{
+	width: 80%;
+	margin-left:auto;
+	margin-right:20px;
+	margin-bottom:15px;
 }
